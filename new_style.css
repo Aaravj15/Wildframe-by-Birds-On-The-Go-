@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+}
+
+.header {
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 10px 20px; 
+background-color: #2e7d32;
+color: white;
+height: 55px;
+position: fixed;
+width: 99%;
+}
+
+.nav {
+    display: flex;             
+    gap: 20px;                
+}
+
+.nav a {
+    text-decoration: none;     
+    color: white;          
+font-size: 20px; 
+    padding: 10px 15px;        
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #aed581;
+}
+
+.hero-image {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+     margin-top: 75px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1b5e20;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #388e3c;
+}
+
+.custom-heading {
+  font-size: 32px; 
+  color: #333333;
+  font-weight: normal; 
+  text-align: center; 
+}
+.features {
+    padding: 50px;
+    background-color: #c8e6c9;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-container_2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bird-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bird-photo {
+    width: 150px;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.feature {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.about-us {
+    padding: 50px;
+    background-color: #a5d6a7;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us a {
+    color: #1b5e20;
+    text-align: center;
+}
+
+.about-us a:hover {
+    text-decoration: underline;
+}
+
+.camera-prototype {
+    padding: 50px;
+    text-align: center;
+    background-color: #c5e1a5;
+margin-top: 50px;
+}
+.camera-prototype {
+      font-size: 18px;
+}
+.camera-simulator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.camera-simulator input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #333;
+}
+.camera-simulator button {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.camera-simulator button:hover {
+    background-color: #2e7d32;
+}
+
+
+#books {
+    padding: 40px;
+    background-color: #aed581;
+    font-family: Arial, sans-serif;
+}
+
+#books h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book {
+    background-color: #e8f5e9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 180px; 
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.book strong {
+    display: block;
+    font-size: 18px;
+    color: #222;
+}
+
+
+.book a {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1b8ed4;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.book a:hover {
+    background-color: #156ea3;
+}
+
+
+@media (max-width: 768px) {
+    .book-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2e7d32;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#camera-prototype {
+    background-color: #f3f4f6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+#camera-prototype h2 {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#camera-prototype p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+.camera-simulator {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#camera-feed {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.camera-simulator button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.camera-simulator button:hover {
+    background-color: #45a049;
+}
+
+
+#bird-name {
+    width: calc(100% - 30px);
+    max-width: 280px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+@media (max-width: 600px) {
+    #camera-prototype {
+        padding: 20px;
+    }
+
+    .camera-simulator button {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    #bird-name {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+#gallery {
+    padding: 40px;
+    background-color: #a5d6a7; 
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 28px;
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+
+
+.release-date {
+    padding: 50px;
+    background-color: #81c784;
+    text-align: center;
+}
+
+.release-date h2 {
+    font-size: 28px;
+    color: #1b5e20;
+    margin-bottom: 15px;
+}
+
+.release-text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.teaser-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+

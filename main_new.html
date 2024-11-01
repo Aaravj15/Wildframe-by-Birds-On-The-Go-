@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds On The Go</title>
+    <link rel="stylesheet" href="new_style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Wildframe</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#features">Our Idealogy & Product's Features</a>
+<a href="#books">Must-Read Books</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#release-date">Release Date</a>
+          
+            
+  <a href="#about-us">Our Unit</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="logo.jpg" alt="Bird in forest with camera" class="hero-image">
+        <h1>Need a google (image) search, we'll do it for the birds...</h1>
+        <p>Our innovative wildlife camera software is designed to take a normal camera to the next level</p>
+        <a href="#camera-prototype" class="button">Check Prototype</a>
+    </section>
+
+   <section id="camera-prototype" class="camera-prototype">
+    <h2>Prototype Software</h2>
+    <p>Use the prototype camera below to capture an image of a bird and get detailed information via Google.</p>
+    
+    <!-- Live camera feed -->
+    <div class="camera-simulator">
+        <video id="camera-feed" width="320" height="240" autoplay></video>
+        <button onclick="captureImage()">Capture Image</button>
+    </div>
+  
+    <div class="camera-simulator">
+        <input type="text" id="bird-name" placeholder="Enter Bird Name">
+        <button onclick="searchBird()">Search Bird Info</button>
+    </div>
+</section>
+
+
+    <section id="features" class="features">
+         <div class="ideology-area">
+        <h2>Our Ideology</h2>
+       
+        <h1 class="custom-heading">Today, a vast majority of wildlife photographers face a really difficult and tricky problem. They cannot identify the bird they are clicking pictures of. Anand Bedi, an enthusiastic wildlife photographer, wanted to solve this problem. He informed his friends and together they came up with a software called Wildframe that can help the photographer to know which bird he is clicking pictures of. This software is installed by the companies that manufacture cameras used by wildlife photographers. When Wildframe is installed in a camera, it can work anywhere in the world without a network. It provides all the information on the specific bird.</h1>
+    </div>
+
+    <h2>Product Features</h2>
+    <div class="feature-container">
+        <div class="feature">
+            <h3>In-built Bird Identification</h3>
+            <p>Immediately identifies the bird in your frame.</p>
+        </div>
+        <div class="feature">
+            <h3>Offline Operation</h3>
+            <p>In a forest, not a problem because this software can operate without any internet.</p>
+        </div>
+    </div>
+    <div class="feature-container_2">
+        <div class="feature">
+            <h3>In-depth Information Provision</h3>
+            <p>It not only identifies the bird but also gives detailed information on the species of the specific bird.</p>
+        </div>
+    </div>
+
+    </section>
+
+
+    <section id="books" class="books">
+        <h2>Must-Read Books for Bird Photographers</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="book_1.jpg" alt="Book 1">
+                <p><strong>Bird Photography</strong> - ₹2,142</p>
+                <a href="https://www.amazon.in/Bird-Photography-Beginners-Mastering-Capturing/dp/1976483352" target="_blank">View on Amazon</a>
+            </div>
+            <div class="book">
+                <img src="photo_birds.jpg" alt="Book 2">
+                <p><strong>Photographing Birds</strong> - ₹1,992</p>
+                <a href="https://www.amazon.in/Photographing-Birds-Techniques-Mark-Sisson/dp/1847977138" target="_blank">View on Amazon</a>
+            </div>
+          <div class="book">
+                <img src="book_3.jpg" alt="Book 3">
+                <p><strong>Amazing Birds</strong> - ₹1,089</p>
+                <a href="https://www.amazon.in/Amazing-Birds-Our-Continents-Discover/dp/1499678290" target="_blank">View on Amazon</a>
+            </div>
+          <div class="book">
+                <img src="book_4.jpg" alt="Book 4">
+                <p><strong>The Complete Guide</strong> -  ₹2,076</p>
+                <a href="https://www.amazon.in/Complete-Guide-Bird-Photography-Photographers/dp/1682033589/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=" target="_blank">View on Amazon</a>
+            </div>
+           <div class="book">
+                <img src="book_5.jpg" alt="Book 5">
+                <p><strong>Bird</strong> -  ₹2,736</p>
+                <a href="https://www.amazon.in/Bird-Exploring-Winged-Phaidon-Editors/dp/1838661409" target="_blank">View on Amazon</a>
+            </div>
+            <div class="book">
+                <img src="book_6.jpg" alt="Book 4">
+                <p><strong>Dare to Bird</strong> -  ₹3,484</p>
+                <a href="https://www.amazon.in/Dare-Bird-Melissa-Hafting/dp/1771606541" target="_blank">View on Amazon</a>
+            </div>
+            <div class="book">
+                <img src="book_7.jpg" alt="Book 7">
+                <p><strong>The Backyard</strong> -  ₹2,345</p>
+                <a href="https://www.amazon.in/Backyard-Bird-Chronicles-Amy-Tan/dp/0593536134" target="_blank">View on Amazon</a>
+        </div>
+
+        <div class="book">
+                <img src="here_8.jpg" alt="Book 8">
+                <p><strong>The Art Of Bird Photography</strong> -  ₹3,271</p>
+                <a href="https://www.amazon.in/Learn-Art-Bird-Photography-Photographers-ebook/dp/B07BHHTKVB/ref=sr_1_3?crid=314U9CP39CX9T&dib=eyJ2IjoiMSJ9.x8d1FyP6MzOj6KzCtH_gU1FrQP-qrV5dbJjq_unnfDcyTdCM6fxL4fI5rnIDCCiXuEgOpCAYmIYuhag-29tKauETFuBYTxpYKFVVpOG4KRhC2o0HlEYuy6kJGNT1iTs8gYdFigyeZmMDHe4bh82_lvu_5w6l_ndA4FiA9_TBP2zVCoh7QN-CZCDV4vqIqCYgeWJQcFrLw9vfcarB4BQdQDzhGM8ZcjeyDV2neHvsnMo.Sq2_9JOzXZXppvOiYPN9r0bvP5scckGosONDF0xr_KI&dib_tag=se&keywords=art+of+bird+photography&qid=1730313125&s=books&sprefix=art+of+bird+photograph%2Cstripbooks%2C211&sr=1-3" target="_blank">View on Amazon</a>
+        </div>
+<div class="book">
+                <img src="here_9.jpg" alt="Book 9">
+                <p><strong>Birwatching</strong> -  ₹678</p>
+                <a href="https://www.amazon.in/BIRDWATCHING-NOVEL-Stephen-Alter/dp/9391047408/ref=sr_1_1?crid=2V88LQILIOKQE&dib=eyJ2IjoiMSJ9.yOn3AI6KfJuWXI45h12YSL-l9epPa5Bj-HgbGjwKrrbc-dtxKEQVmk75ETuLgpS32HTXbFziU3TNkRjBAnH1KjgVCBc4mqLcKuW_h1e-dg-Y7XlQwpZTqaU0nNrWcy6MxysZPuLt7zljEqL4X_mfziA17n5sIBWV2w2n8147Rbqe1EldzXV0qdNtVbh1lLqzHyCU80uIhwuledFdInd106F-MdIRtkMhi7ONaGMD6qM.SykvGrKzq-rwl0f0owOorqnRt0bT5MZrQ2wFsujzNiE&dib_tag=se&keywords=birdwatching+a+novel&qid=1730313181&s=books&sprefix=birdwatching+a+novel%2Cstripbooks%2C238&sr=1-1" target="_blank">View on Amazon</a>
+        </div>
+<div class="book">
+                <img src="here_10.jpg" alt="Book 10">
+                <p><strong>Birds of Prey</strong> -  ₹910</p>
+                <a href="https://www.amazon.in/Birds-Prey-Mini-Animals-Jackson/dp/1838863559" target="_blank">View on Amazon</a>
+        </div>
+<div class="book">
+                <img src="here_11.jpg" alt="Book 11">
+                <p><strong>Birds of The World</strong> -  ₹2,999</p>
+                <a href="https://www.amazon.in/Birds-World-Beletsky/dp/0801884292" target="_blank">View on Amazon</a>
+        </div>
+<div class="book">
+                <img src="here_12.jpg" alt="Book 12">
+                <p><strong>The Birdwatcher</strong> -  ₹1,668</p>
+                <a href="https://www.amazon.in/Birdwatcher-Life-Roger-Tory-Peterson/dp/159921962X" target="_blank">View on Amazon</a>
+        </div>
+
+
+    </section>
+
+    
+   <section id="gallery" class="gallery">
+    <h2>Bird Photo Gallery</h2>
+    <div class="gallery-images">
+        <div class="gallery-item">
+            <img src="new_1.jpg" alt="Bird 1">
+        </div>
+        <div class="gallery-item">
+            <img src="new_1st.jpg" alt="Bird 2">
+        </div>
+        <div class="gallery-item">
+            <img src="eagle.jpg" alt="Bird 3">
+        </div>
+        <div class="gallery-item">
+            <img src="bird_4.jpg" alt="Bird 4">
+        </div>
+        <div class="gallery-item">
+            <img src="new_5.jpg" alt="Bird 5">
+        </div>
+        <div class="gallery-item">
+            <img src="bird_6.jpg" alt="Bird 6">
+        </div>
+        <div class="gallery-item">
+            <img src="bird_7.jpg" alt="Bird 7">
+        </div>
+        <div class="gallery-item">
+            <img src="bird_8.jpg" alt="Bird 8">
+        </div>
+        <div class="gallery-item">
+            <img src="bird_9.jpg" alt="Bird 9">
+        </div>
+
+     
+       <div class="gallery-item">
+            <img src="10.jpg" alt="Bird 10">
+</div>
+ <div class="gallery-item">
+            <img src="11.jpg" alt="Bird 11">
+</div>
+ <div class="gallery-item">
+            <img src="12.jpg" alt="Bird 12">
+</div>
+ <div class="gallery-item">
+            <img src="13.jpg" alt="Bird 13">
+</div>
+ <div class="gallery-item">
+            <img src="14.jpg" alt="Bird 14">
+</div>
+ <div class="gallery-item">
+            <img src="15.jpg" alt="Bird 15">
+</div>
+ <div class="gallery-item">
+            <img src="16.jpg" alt="Bird 16">
+</div>
+ <div class="gallery-item">
+            <img src="17.jpg" alt="Bird 17">
+</div>
+ <div class="gallery-item">
+            <img src="bird_3.jpg" alt="Bird 18">
+</div>
+ 
+
+        </div>
+    </div>
+</section>
+
+    <section id="release-date" class="release-date">
+         <h2>Launch Details</h2>
+        <p class="release-text">Expected Release: March 2025</p>
+        <p>Stay tuned for more updates on this website for the availability and pre-order updates to to capture your customers through our software. Till then, help us know about what more you want in the software by clicking on the below image:</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScpLOpEdAYgv_GjNez5UUBNOVchyZ7bMqJ-9edgn1JNx_TsOA/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+        <img src="feedback.png" alt="Clickable Image" class="teaser-image">
+    </a>
+
+    </section>
+
+    <section id="about-us" class="about-us">
+        <h2 style="text-align: center; font-size: 2em; margin-bottom: 20px;">The Core Team</h2>
+    
+    <div class="team-member" style="text-align: center; margin-bottom: 30px;">
+        <img src="me.jpg" alt="Aarav Jain Image" style="width:200px; height: 200px; border-radius: 50%;">
+        <h3>Aarav Jain</h3>
+        <p>Head of Software Development, specialized in several programming languages.</p>
+    </div>
+    
+    <div class="team-member" style="text-align: center; margin-bottom: 30px;">
+        <img src="bedi.jpg" alt="Anand Bedi Image" style="width:200px; height: 200px; border-radius: 50%;">
+        <h3>Anand Bedi</h3>
+        <p>A wildlife photographer and strategist, brainstorming ways to make the software relatable for photographers.</p>
+    </div>
+    
+    <div class="team-member" style="text-align: center; margin-bottom: 30px;">
+        <img src="diya.jpg" alt="Diya Dahiya Image" style="width:200px; height: 200px; border-radius: 50%;">
+        <h3>Diya Dahiya</h3>
+        <p>Specialized in software development, focusing on implementing the software within the camera.</p>
+    </div>
+    
+    <div class="team-member" style="text-align: center; margin-bottom: 30px;">
+        <img src="bansal.jpg" alt="Vihaan Bansal Image" style="width:200px; height: 200px; border-radius: 50%;">
+        <h3>Vihaan Bansal</h3>
+        <p>UI Design Specialist, making camera display information self-explanatory and easy to interpret.</p>
+    </div>
+    
+    <h2 style="text-align: center; margin-top: 40px;">For suggestions/business inquiries, 
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwTjwQLxLhtmkwZhvTcMkDWzHxNKhBPkLqgzcBpQtmVGdlpsgzWGGvjGzhnRrhJvWTGPq" style="color: #0073e6; text-decoration: none;" 
+           onmouseover="this.style.color='#005bb5'" 
+           onmouseout="this.style.color='#0073e6'">Click Here!</a>
+    </h2>
+
+    </section>
+
+   
+   <a href="new_chatbot.html" class="chatbot">Chat With Us</a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
